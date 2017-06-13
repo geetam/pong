@@ -209,7 +209,7 @@ while 1:
         and 
         cpuPaddle.rectangle.left < balli.x < cpuPaddle.rectangle.right
     ):
-          balli.speed[0] += cpuPaddle.speed[0]
+          #balli.speed[0] += cpuPaddle.speed[0]
           balli.speed[1] *= -1
             
     
@@ -219,7 +219,7 @@ while 1:
         and 
         playerPaddle.rectangle.left < balli.x < playerPaddle.rectangle.right
     ):
-        balli.speed[0] += playerPaddle.speed[0]
+        #balli.speed[0] += playerPaddle.speed[0]
         balli.speed[1] *= -1
         
 
